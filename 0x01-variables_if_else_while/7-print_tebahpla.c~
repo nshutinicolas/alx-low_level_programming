@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+/* reverse alphabet */
+
+Int- main(void)
+{
+	char reverse = 'z';
+
+	while (reverse >= 'a')
+	{
+		putchar(reverse);
+		reverse--;
+	}
+	putchar("\n");
+	return (0);
+}
