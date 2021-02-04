@@ -11,6 +11,6 @@ int  main(void)
 		putchar(reverse);
 		reverse--;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }

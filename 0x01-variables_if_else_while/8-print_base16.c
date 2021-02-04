@@ -9,7 +9,7 @@ int main(void)
 
 	while (num <= '9')
 	{
-		puchar(num);
+		putchar(num);
 		num++;
 	}
 	while (alpha <= 'f')
@@ -17,6 +17,6 @@ int main(void)
 		putchar(alpha);
 		alpha++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
