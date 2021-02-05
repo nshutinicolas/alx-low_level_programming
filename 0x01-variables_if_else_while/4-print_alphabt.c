@@ -10,6 +10,7 @@ int main(void)
 	{
 		if (a != 'q' && a != 'e')
 			putchar(a);
+		a++;
 	}
 	putchar('\n');
 	return (0);
