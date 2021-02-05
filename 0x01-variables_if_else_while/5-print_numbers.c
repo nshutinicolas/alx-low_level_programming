@@ -8,7 +8,7 @@ int main(void)
 
 	while (num <= '9')
 	{
-		printf("%i", num);
+		printf("%c", num);
 		num++;
 	}
 	printf('\n');
