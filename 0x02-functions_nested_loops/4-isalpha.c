@@ -1,7 +1,10 @@
 #include "holberton.h"
 
 /**
- * If alphabet
+ *_isalpha - is  alphabet
+ * @c: int value
+ * Return: 1 if true or 0 if false
+ *
  */
 
 int _isalpha(int c)

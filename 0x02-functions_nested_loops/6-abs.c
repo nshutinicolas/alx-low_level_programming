@@ -2,7 +2,10 @@
 #include <stdio.h>
 
 /**
- * Printing the absolute
+ *_abs - Printing the absolute
+ * Return: returns the absolute value
+ * @num: the int value
+ *
  */
 
 int _abs(int num)

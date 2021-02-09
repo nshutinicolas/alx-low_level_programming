@@ -1,7 +1,8 @@
 #include "holberton.h"
 
 /**
- * 9 times table
+ *times_table - 9 times table iterator
+ *
  */
 
 void times_table(void)
