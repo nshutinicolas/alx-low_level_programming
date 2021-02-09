@@ -1,6 +1,6 @@
-#inlcude "holberton.h"
+#include "holberton.h"
 
-/*
+/**
  * 9 times table
  */
 

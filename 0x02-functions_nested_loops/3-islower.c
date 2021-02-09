@@ -1,12 +1,12 @@
-#include "holberton.c"
+#include "holberton.h"
 
-/*
+/**
  * Printing lowercase
  */
 
 int _islower(int c)
 {
-	if (c >= 'a' && cd <= 'z')
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
