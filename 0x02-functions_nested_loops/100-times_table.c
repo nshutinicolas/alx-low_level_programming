@@ -1,4 +1,4 @@
-#include "horberton.h"
+#include "holberton.h"
 
 /**
  * print_times_table - Prints n times table
