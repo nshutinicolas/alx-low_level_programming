@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-void main(void)
+int main(void)
 {
 	int i;
 
@@ -29,7 +29,6 @@ void main(void)
 			printf("%d", i);
 		}
 		if (i < 100)
-		{
 			printf(" ");
       	}
 	printf("\n");
