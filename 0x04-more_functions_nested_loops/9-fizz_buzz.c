@@ -3,6 +3,7 @@
 
 /**
  * main - prints the fizzbuzz puzzle
+ * Return: 0
  */
 
 void main(void)
@@ -13,7 +14,6 @@ void main(void)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
-
 			printf("FizzBuzz");
 		}
 		else if (i % 3 == 0)
@@ -26,12 +26,12 @@ void main(void)
 		}
 		else
 		{
-			printf("%i", i);
+			printf("%d", i);
 		}
 		if (i < 100)
 		{
 			printf(" ");
-		}
-	}
+      	}
 	printf("\n");
+	return (0);
 }
