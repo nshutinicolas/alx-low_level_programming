@@ -23,7 +23,7 @@ int _atoi(char *s)
 				last = i;
 			}
 			else if (i == last + 1)
-				last = j;
+				last = i;
 			else
 				break;
 		}
@@ -32,20 +32,20 @@ int _atoi(char *s)
 		return (0);
 	else
 	{
-		if(s[0] == -1)
+		if (s[0] == -1)
 			sign = -1;
 		else
 			sign = 1;
-	while (j < last - first)
-	{
-		mul *= 10;
-		j++;
-	}
-	for (first = first; first <= last; first++)
-	{
-		num += (s[first]  '0') * mul;
-		mul /= 10;
-	}
-	return (num * sign);
+		while (j < last - first)
+		{
+			mul *= 10;
+			j++;
+		}
+		for (first = first; first <= last; first++)
+		{
+			num += (s[first]  '0') * mul;
+			mul /= 10;
+		}
+		return (num * sign);
 	}
 }
