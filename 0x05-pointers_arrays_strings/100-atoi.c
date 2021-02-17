@@ -43,7 +43,7 @@ int _atoi(char *s)
 		}
 		for (first = first; first <= last; first++)
 		{
-			num += (s[first]  '0') * mul;
+			num += (s[first] - '0') * mul;
 			mul /= 10;
 		}
 		return (num * sign);
