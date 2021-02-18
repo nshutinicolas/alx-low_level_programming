@@ -1,0 +1,1 @@
+# 0x06 pointers arrayrs and strings
