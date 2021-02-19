@@ -12,12 +12,12 @@ char *leet(char *str)
 	int enc[11] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'};
 	int i, j;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		for (j = 0;  og[j] != '\0'; j++)
 		{
-			if (s[i] == og[j])
-				s[i] = enc[i];
+			if (str[i] == og[j])
+				str[i] = enc[i];
 		}
 	}
 	return (str);
