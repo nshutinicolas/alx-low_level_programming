@@ -17,7 +17,7 @@ char *leet(char *str)
 		for (j = 0;  og[j] != '\0'; j++)
 		{
 			if (str[i] == og[j])
-				str[i] = enc[i];
+				str[i] = enc[j];
 		}
 	}
 	return (str);
