@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 
 /**
  * *_strpbrk - function locates the first occurrence in the string s of any of
