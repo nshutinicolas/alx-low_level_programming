@@ -1,11 +1,10 @@
 #include "holberton.h"
 
 /**
- * is_prime_number - function to determin prime number
- * is_prime - helper function
+ * is_prime - function that returns the prime number
  * @n: number
  * @i: divider
- * Return: returns 0 if not prime number and 1 otherwise
+ * Return: rpine returns the prime info
  */
 
 int is_prime(int n, int i)
@@ -16,6 +15,12 @@ int is_prime(int n, int i)
 		return (0);
 	return (is_prime(n, i + 1));
 }
+
+/**
+ * is_prime_number - function that computes the prime number
+ * @n: the number to examine
+ * Return: 1 if prime number otherwise 0
+ */
 
 int is_prime_number(int n)
 {

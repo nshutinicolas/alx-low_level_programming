@@ -10,6 +10,9 @@ int root(int n, itn i)
 {
 	if (n == (i * i))
 		return (i);
+	if (n < (i * i))
+		return (- 1);
+	return (root(n, (i + 1));
 }
 
 /**
