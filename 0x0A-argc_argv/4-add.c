@@ -3,6 +3,24 @@
 #include <stdlib.h>
 
 /**
+ * is_num - function to check if value is numeric
+ * @num: character to check
+ * Return: 0 if not num else 1
+ */
+
+int is_num(char *num)
+{
+	int j;
+
+	for (j = 0; num[j] != '\0'; j++)
+	{
+		if (!(num[j] >= '0' && num[j] <= '9'))
+			return (0);
+	}
+	return (1);
+}
+
+/**
  * main - function that adds positive numbers
  * @argc: argument count
  * @argv: argument vector
@@ -13,9 +31,9 @@ int main(int argc, char *argv[])
 {
 	int i, sum = 0;
 
-	for (i = 0; i < argc; i++)
+	for (i = 1; i < argc; i++)
 	{
-		if (!(argv[i] >= '0' && argv[i] <= '9'))
+		if (is_num(argv[i]) == 0)
 		{
 			printf("Error\n");
 			return (1);
