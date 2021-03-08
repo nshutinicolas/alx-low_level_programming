@@ -4,9 +4,12 @@
 /**
  * print_dog - function that printsstruct dog
  * @d: dog struct
+ * @name: first argument
+ * @age: second argument
+ * @owner: third argument
  */
 
-void print_dog(struct dog *d)
+void print_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d == NULL)
 		return;
