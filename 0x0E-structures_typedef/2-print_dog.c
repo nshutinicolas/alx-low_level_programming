@@ -2,11 +2,8 @@
 #include "dog.h"
 
 /**
- * print_dog - function that printsstruct dog
+ * print_dog - function that prints struct dog
  * @d: dog struct
- * @name: first argument
- * @age: second argument
- * @owner: third argument
  */
 
 void print_dog(struct dog *d)
